@@ -33,5 +33,13 @@ selector {
 
 /* ID selector (apply to one unique element per page) */
 #logo { /* select elements with id="logo" */
-  background: blue;
+  background: aqua;
+}
+
+/* Descendent Selector*/
+#logo h1 { /* select <h1> if inside the id "logo" */
+  font-family: 'Clicker Script', cursive;
+}
+#logo h2 { /* select <h1> if inside the id "logo" */
+  font-family: 'Elsie Swash Caps', cursive;
 }
